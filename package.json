@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "vite": "^5.0.2"
+  },
+  "dependencies": {
+    "@fastify/static": "^6.12.0",
+    "fastify": "^4.24.3"
+  }
+}
