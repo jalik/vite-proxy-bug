@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vite proxy bug</title>
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <div id="importedImage">
+      <b>Image from bundle (public folder)</b>
+      <img alt="vite" src="images/imported-vite.png" />
+    </div>
+    <hr>
+    <div id="staticImage">
+      <b>Image from server (static folder)</b>
+      <img alt="vite" src="/images/static-vite.png" />
+    </div>
+  </body>
 </html>

@@ -1,4 +1,11 @@
 {
+  "name": "vite-proxy-bug",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "vite build --emptyOutDir",
+    "dev": "vite dev",
+    "start": "node src/main/server.mjs"
+  },
   "devDependencies": {
     "vite": "^5.0.2"
   },
